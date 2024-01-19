@@ -57,11 +57,48 @@ body {
     background-color: #f8fafc;
 }
 
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border-radius: 10px;
+    border: none;
+    background-color: #cbd5e1;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search img {
+    max-width: 30px;
+}
+
+.profile {
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.profile .notif {
+    max-width: 30px;
+}
+
+.profile .profile-pic {
+    max-width: 80px;
+    border-radius: 50px;
+}
+
 .main {
     background-color: #cbd5e1; 
 }
-
-
 
 
 
