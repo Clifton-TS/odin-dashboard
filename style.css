@@ -5,6 +5,7 @@
 body {
     display: grid;
     grid-template-columns: clamp(250px, 300px, 300px) 5fr;
+    grid-template-rows: 1fr 5fr;
     /* grid-template-columns: auto-fit; */
     height: 100vh;
 }
@@ -13,6 +14,7 @@ body {
     background-color: #1e293b;
     color: #f8fafc;
     display: grid;
+    grid-row: 1 / -1;
     grid-template-rows: 1fr 2fr 2fr;
     align-items: center;
 }
@@ -49,6 +51,14 @@ body {
 
 .other {
     align-self:self-start;
+}
+
+.nav {
+    background-color: #f8fafc;
+}
+
+.main {
+    background-color: #cbd5e1; 
 }
 
 
