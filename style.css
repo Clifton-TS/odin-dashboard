@@ -210,7 +210,9 @@ body {
 }
 
 .main {
-    background-color: #cbd5e1; 
+    background-color: #cbd5e1;
+    display: grid;
+    grid-template-columns: 4fr 1fr; 
 }
 
 .main .projects {
@@ -244,6 +246,64 @@ body {
 
 .card .actions img {
     width: 30px;
+}
+
+.sidecards {
+    display: grid;
+    margin: 30px;
+    margin-left: 0px;
+    grid-template-rows: 0.1fr 0.1fr;
+    gap: 30px;
+}
+
+.sidecards .news {
+    display: grid;
+    gap: 10px;
+}
+
+.sidecards .news .card {
+    display: grid;
+    gap: 10px;
+}
+
+.sidecards .card {
+    background-color: #f8fafc;
+    padding: 30px;
+    border-radius: 8px;
+    display: grid;
+}
+
+.sidecards .card p {
+    font-size: 14px;
+}
+
+.sidecards .news .card .b {
+    padding-bottom: 5px;
+    border-bottom: #3f3f46 groove 1px;
+}
+
+.sidecards .trending {
+    display: grid;
+    gap: 10px;
+}
+
+.sidecards .trending .card {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    gap: 15px;
+}
+
+.sidecards .trending .card .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.sidecards .trending .card .data {
+    display: grid;
+    gap: 5px;
 }
 
 
